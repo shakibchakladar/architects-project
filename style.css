@@ -1,0 +1,118 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* commom */
+.description{
+color: var(--Dark-03, #727272);
+text-align: center;
+font-size: 1.5rem;
+font-weight: 400;}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+header{
+    background: #FF900E1A;
+    
+}
+
+.nav-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 340px;
+}
+.nav-name{
+    color: #131313;
+}
+nav{
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li{}
+nav ul li a{
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+
+.nav-title-section{
+    padding: 5rem 20rem; 
+    display: inline-block;
+    text-align: center;
+}
+.nav-title{
+    color: var(--Dark-01, #131313);
+font-size: 4rem;
+font-style: normal;
+font-weight: 700;
+}
+
+.Explore-More{
+border-radius: 0.5rem;
+background: #FF900E;
+padding: 0.8rem 1.8rem;
+margin-top: 20px;
+border: none;
+color: #fff;
+}
+
+.header-banner-section{
+    max-width: 1060px;
+    margin: auto; 
+    padding:  40px 200px 10px 0;
+    
+}
+.header-banner-section> img{
+    padding: 30px 300px 20px 0px;
+    width: 100%;
+    
+}
+
+main{
+    min-width: 1060px;
+}
+
+.feature-section{
+    display: flex;
+
+}
+.feature-imges{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    
+}
+.feature-content{
+    width: 50%;
+    text-align: center;
+    margin-top: 200px;
+    padding: 20px;
+}
+.feature-title{
+
+}
+
+.Quick-list{
+color: var(--Dark-03, #727272);
+font-size: 2.8125rem;
+font-style: normal;
+font-weight: 500;
+}
+.of-Our{
+color: var(--Dark-01, #131313);
+font-size: 2.8125rem;
+font-style: normal;
+font-weight: 700;
+
+}
+.Features{
+    color: #FF900E;
+font-size: 2.8125rem;
+font-style: normal;
+font-weight: 700;
+}
