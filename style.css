@@ -42,7 +42,7 @@ nav ul li a{
 
 .nav-title-section{
     padding: 5rem 20rem; 
-    display: inline-block;
+    /* display: inline-block; */
     text-align: center;
 }
 .nav-title{
@@ -115,4 +115,14 @@ font-weight: 700;
 font-size: 2.8125rem;
 font-style: normal;
 font-weight: 700;
+}
+
+@media screen and (max-width:576px) {
+    .nav-section,.header-banner-section, .nav-title-section {
+        padding: 20px;
+    }
+    .feature-section{
+       flex-direction: column;}
+    .feature-imges{
+        grid-template-columns: repeat(1, 1fr);}
 }
